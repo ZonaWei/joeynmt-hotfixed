@@ -572,7 +572,7 @@ class TrainManager:
 
         # This caused training errors with CPU. Experiment if you want to use GPU/cuda
         #print(f"DEBUG:\n \
-        #      device type: \t{self.device.type} \
+        #     device type: \t{self.device.type} \
         #      enabled or na?: \t{self.fp16} \
         #      ")
         #with torch.autocast(device_type=self.device.type,
